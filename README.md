@@ -1,14 +1,13 @@
-         ___        ______     ____ _                 _  ___
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/
- -----------------------------------------------------------------
+## 日本語 Japanese
+## DMM WEBCAMP コンテンツ【Rails を学ぼう】
+DMM WEBCAMP の学習コンテンツ Rails を学ぼうの研修課題です。
 
+# 使い方
+個人的利用。
 
-Hi there! Welcome to AWS Cloud9!
+## 英語 English
+DMM WEBCAMP Content 【Learn Rails】
+DMM WEBCAMP learning content This is a training task for learning Rails.
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+# How to use
+Personal use.
