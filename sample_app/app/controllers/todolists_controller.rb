@@ -14,6 +14,9 @@ class TodolistsController < ApplicationController
     redirect_to '/top'
   end
 
+  def index
+  end
+
   # ! ここから下はcontrollerの中でしか呼び出せません !
   private
   # ストロングパラメータ
