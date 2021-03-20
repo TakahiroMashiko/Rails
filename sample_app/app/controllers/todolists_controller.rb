@@ -16,7 +16,10 @@ class TodolistsController < ApplicationController
 
   def index
     @lists = List.all
+  end
 
+  def show
+    @list = List.find(params[:id])
   end
 
   # ! ここから下はcontrollerの中でしか呼び出せません !
