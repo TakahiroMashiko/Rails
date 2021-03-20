@@ -3,7 +3,7 @@
   <p>タイトル</p>
   <!-- <span><%= list.title %></span> を削除して、以下コードに変更 -->
   <span>
-    <%= link_to list.title, "/todolists/#{list.id}" %>
+    <%= link_to list.title, todolist_path(list.id) %>
   </span>
 
 <% end %>
