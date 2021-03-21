@@ -26,6 +26,9 @@ class TodolistsController < ApplicationController
     @list = List.find(params[:id])
   end
   def update
+    list = List.find(params[:id])
+    list.update(list_params)
+    redirect_to todolist_path(list.id)
   end
 
   # ! ここから下はcontrollerの中でしか呼び出せません !
