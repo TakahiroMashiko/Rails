@@ -25,6 +25,8 @@ class TodolistsController < ApplicationController
   def edit
     @list = List.find(params[:id])
   end
+  def update
+  end
 
   # ! ここから下はcontrollerの中でしか呼び出せません !
   private
