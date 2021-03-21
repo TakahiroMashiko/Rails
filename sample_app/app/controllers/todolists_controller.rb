@@ -30,6 +30,8 @@ class TodolistsController < ApplicationController
     list.update(list_params)
     redirect_to todolist_path(list.id)
   end
+  def destroy
+  end
 
   # ! ここから下はcontrollerの中でしか呼び出せません !
   private
