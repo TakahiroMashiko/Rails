@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+header, h1, nav, .list-comment {
+  font-family: 'Kaushan Script', cursive, sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
@@ -65,8 +69,21 @@ main {
   width: 200px;
   height: 250px;
   margin: 10px;
+  position: relative;
 }
 
 .list-comment {
   width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.list-body {
+  color: gray;
+  font-size: 12px;
+}
+
+.list-title {
+  font-size: 18px;
 }
